@@ -1,4 +1,4 @@
-body{
+/*body{
 	margin:0;
 	padding:0px;
 }
@@ -15,4 +15,69 @@ body{
 .footer{
 	background-color:green; 
 	text-align:center;
+}*/
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+.div1{
+
+}
+.d1p1{
+	background-color: blue;
+	width: 50%;
+	height: 100px;
+	float: left;
+}
+.d1p2{
+	background-color: green;
+	width: 50%;
+	height: 100px;
+	float: right;
+}
+.div2{
+	clear: both;
+	background-color: red;
+	height: 90px;
+}
+.div2 div{
+	margin: 10px;
+}
+.d2p1 {
+	background-color: yellow;
+	float: left;
+	
+}
+.d2p2 {
+	background-color: yellow;
+	float: left;
+}
+.d2p3 {
+	background-color: yellow;
+	float: left;
+}
+.d2p4 {
+	background-color: yellow;
+	float: left;
+}
+.div3{
+	clear: both;
+}
+.d3p1{
+	float: left;
+	background-color: blue;
+	height: 100px;
+	width: 50%;
+}
+.d3p2{
+	float: left;
+	background-color: green;
+	height: 100px;
+	width: 50%;
+}
+.footer{
+	clear: both;
+	background-color: yellow;
+	height: 65px;
 }
