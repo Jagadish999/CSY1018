@@ -1,0 +1,15 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+img{
+	height: 200px;
+	width: 300px;
+}
+.img1{
+	float: left;
+}
+.img2{
+	float: right;
+}

@@ -1,0 +1,81 @@
+body{
+	margin: 20px;
+	padding: 20px;
+}
+.header{
+	margin: 0;
+	padding: 0;
+	background-color: #02475E;
+	font-family: century gothic;
+	text-align: center;
+}
+h1{
+	margin: 0;
+	padding: 0;
+}
+.list1{
+	margin-top: 15px;
+	padding: 10px;
+	background-color: #45526c;	
+}
+ul{
+	margin: 0;
+	padding: 0;	
+	
+}
+li{
+	margin: 10px;
+	padding: 10px;
+	list-style: none;
+	background-color: #542e71;
+}
+li:hover{
+	background-color: red;
+}
+.l1, .l2, .l3, .l4{
+	position: static;
+}
+.list2, .list3, .list4, .list5{
+	margin-top: 15px;
+	padding: 10px;
+	background-color: #45526c;	
+}
+.l5{
+	position: relative;
+	left: 60px;
+}
+.l6{
+	position: relative;
+	right: 60px;
+}
+.l7{
+	position: relative;
+	top: 20px;
+}
+.l8{
+	position: relative;
+	bottom: 10px;
+}
+.list3{
+	position: relative;
+
+}
+.l9{
+	position: absolute;
+	top: 0;
+}
+.l13{
+	position: fixed;
+	top:0;
+	right: 0;
+}
+.l18{
+	position: sticky;
+	top: 0;
+}
+.list5{
+	margin-top: 15px;
+	padding: 10px;
+	background-color: #45526c;
+	height: 900px;	
+}

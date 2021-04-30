@@ -1,0 +1,21 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.side-bar{
+	background-color: red;
+	height: 90px;
+	float: left;
+	width: 50%;
+}
+.main-content{
+	background-color: yellow;
+	height: 90px;
+	float: left;
+	width: 50%;
+}
+.footer{
+	background-color: pink;
+	height: 30px;
+	clear: both;
+}

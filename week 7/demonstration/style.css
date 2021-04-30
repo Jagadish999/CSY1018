@@ -1,0 +1,49 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+.header h1{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: century gothic;
+	background-color: #2773a4a3;
+}
+.round-corners{
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-around;
+
+}
+.d1, .d2, .d3{
+	background-color: red;
+	height: 200px;
+	width: 200px;
+	border: 2px solid black;
+	text-align: center;
+}
+.d1{
+	border-radius: 8px 16px 24px 32px;
+}
+.d2{
+	border-radius: 20px 30px 40px;
+}
+.d3{
+	border-radius: 30px 70px;
+}
+
+.img-border div{
+	background-color: red;
+	margin-top: 20px;
+	padding: 20px;
+	border-image: url(1.jfif) 10 round;
+	border: 30px;
+}
+.bg-image{
+	margin: 20px 0 0 0;
+	height: 600px;
+	width: 100%;
+	background: url(otter1.jpg) right-bottem no-repeat, url(1.jfif);
+	background-repeat: no-repeat;
+}

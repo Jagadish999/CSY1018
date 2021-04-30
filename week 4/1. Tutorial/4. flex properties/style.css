@@ -1,0 +1,40 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #fa9905;
+}
+li{
+	margin: 20px;
+	padding: 15px;
+	list-style: none;
+	background-color: red;
+	width: 14%;
+}
+ul{
+	padding: 0;
+	margin: 0;
+}
+.main{
+	
+}
+.ul1{
+	display: flex;
+	flex-wrap: wrap-reverse;
+	justify-content: space-evenly;
+}
+.l1{
+	order: 2;
+	flex-grow: ;
+}
+.l2{
+	order: 1;
+	flex-shrink: -4;
+}
+.l3{
+	order: 4;
+
+}
+.l4{
+	order: 3;
+
+}

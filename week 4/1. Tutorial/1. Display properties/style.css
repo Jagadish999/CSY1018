@@ -1,0 +1,102 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+li{
+	margin: 10px 2px 3px 4px;
+	padding: 10px;
+	list-style: none;
+	background-color: #2f4b5d;
+}
+ ul{
+	margin: 0;
+	padding: 10px;
+}
+
+
+
+div.all-properties{
+
+}
+div.display-none{
+	border: 2px solid black;
+	width: 100%;
+}
+div.display-none h1{
+	margin: 0;
+	padding: 0;
+	background-color: red;
+}
+div.display-none p{
+	display: none;
+	margin: 0;
+	padding: 0;
+	background-color: yellow;
+}
+div.display-block{
+	border: 2px solid black;
+	margin-top: 20px;
+}
+div.display-block span{
+	display: block;
+}
+.display-inline{
+	background-color: yellow;
+	border: 2px solid black;
+	margin-top: 20px;
+}
+div.display-inline ul{
+	margin: 0;
+	padding: 10px;
+}
+div.display-inline ul li{
+	margin: 10px 2px 3px 4px;
+	padding: 10px;
+	list-style: none;
+	background-color: #2f4b5d;
+}
+.l1{
+	display: inline;
+}
+.l2{
+	display: inline;
+}
+.l3{
+	display: inline;
+}
+.l4{
+	display: inline;
+}
+.display-inline-block{
+	background-color: yellow;
+	border: 2px solid black;
+	margin-top: 20px;
+}
+.l5, .l6, .l7, .l8{
+	display: inline-block;
+	height: 40px;
+	width: 60px;
+}
+.display-flex{
+	background-color: yellow;
+	border: 2px solid black;
+	margin-top: 20px;
+}
+.display-flex ul{
+	display: flex;
+}
+.l9, .l10, .l11, .l12{
+	
+}
+.display-inline-flex{
+	background-color: yellow;
+	border: 2px solid black;
+	margin-top: 20px;
+}
+.display-inline-flex ul{
+
+}
+.l13, .l14, .l15, .l16{
+	display: inline-flex;
+
+}

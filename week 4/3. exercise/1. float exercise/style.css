@@ -1,0 +1,26 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	background-color: #1cc5dc;
+	height: 50px;
+}
+.l-c{
+	background-color: #890596;
+	height: 300px;
+	width: 50%;
+	float: left;
+
+}
+.r-c{
+	background-color: #fea82f;
+	height: 300px;
+	width: 50%;
+	float: right;
+}
+.footer{
+	background-color: blue;
+	height: 50px;
+	clear: both;
+}

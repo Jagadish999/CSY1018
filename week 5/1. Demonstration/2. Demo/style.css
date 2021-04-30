@@ -1,0 +1,113 @@
+body{
+	font-family: 'Merriweather', century goothic;
+	margin: 10px;
+	padding: 0;
+}
+.header{
+	background-color: rgba(1, 1, 1, 0.4);
+	padding: 10px;
+}
+.header h1{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.content{
+	margin: 18px 0 0 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+
+}
+.content .nav{
+	width: 13%;
+}
+.content .nav nav{
+
+}
+.content .nav nav ul{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+.content .nav nav ul li{
+	list-style: none;
+}
+.l1{
+	order: 2;
+}
+.l2{
+	order: 1;
+}
+.l3{
+	order: 4;
+}
+.l4{
+	order: 3;
+}
+.description{
+	margin: 10px 0 0 0;
+	width: 59%;
+
+}
+.description h2{
+	margin: 0;
+	padding: 0;
+
+}
+.description p{
+	margin: 15px 0 0 0;
+	padding: 0;
+}
+img{
+	height: 300px;
+	width: 700px
+}
+.side-bar{
+	background-color: rgba(1, 2, 509, 0.2);
+	width: 23%;
+	padding: 0 12px 0 12px;
+}
+.side-bar h2{
+	margin: 12px 0 0 0;
+	padding: 0;
+}
+.side-bar p{
+	margin: 12px 0 0 0;
+	padding: 0;
+}
+.footer{
+	margin: 18px 0 0 0;
+	padding: 30px;
+	background-color: rgba(1, 1, 1, 0.4);
+	text-align: center;
+}
+@media screen and (max-width: 800px){
+	body{
+		background-color: ;
+	}
+	.content{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-end;
+		
+	}
+	.header{
+		padding: 10px;
+	}
+	img{
+		width: 100%;
+	}
+	.description{
+		width: 75%;
+	}
+	.nav{
+		width: 25%;
+		margin-right: 64px;
+	}
+	.side-bar{
+		width: 70.6%;
+		;
+	}
+}
